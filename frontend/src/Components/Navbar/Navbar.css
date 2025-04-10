@@ -1,0 +1,78 @@
+.navbar{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+    margin:10px 10px;
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+    gap:10px
+}
+.shopper-logo{
+    width:85px;
+    height:70px;  
+    margin-left: 20px;  
+}
+
+.nav-menu{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 45px;
+    font-size:20px ;
+    color: gray;
+    font-weight: 500;
+}
+.nav-menu li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;           
+    cursor: pointer;
+}   
+.nav-menu hr{
+    height:3px;
+    gap:20px;
+    border: none;
+    width:80%;
+    width:80%;
+    height: 3px; 
+    background:brown;
+}
+.nav-login-cart{
+    display: flex;
+    gap:10px;
+}
+
+.nav-login-cart button{
+    width:55px;
+    height:40px;
+    padding:4px;
+    outline: none;
+    border: solid 1px;
+    border-radius: 12px;
+    background: transparent;
+    cursor: pointer;
+    color: black;
+}
+
+.nav-login-cart button :active{
+    background: grey;
+}
+.cart-count{
+    display: flex;
+}
+
+.items-count{
+    width:16px;
+    height:8px;
+    margin-left: -12px;
+    padding-bottom: 13px;
+    padding-left: 5px;
+    background: red;
+    color: white;
+    border: solid 1px white;
+    border-radius: 25px;
+    margin-bottom:-10px;
+}
