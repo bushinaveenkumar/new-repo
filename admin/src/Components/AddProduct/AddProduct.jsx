@@ -22,7 +22,7 @@ const AddProduct = () => {
     formData.append('product', image)
     console.log(formData)
 
-    await fetch('http://localhost:4000/upload', {
+    await fetch('https://naveen-e-commerce-site-backend.onrender.com/upload', {
       method:'POST',
       headers:{
         Accept:'application/json'

@@ -32,7 +32,7 @@ const ListProducts = () => {
   ]);
 
   const removeProduct = async (id) =>{
-    await fetch('http://localhost:4000/removeproduct',{
+    await fetch('https://naveen-e-commerce-site-backend.onrender.com/removeproduct',{
       method:'POST',
       headers:{
         Accept:'application/json',
@@ -44,7 +44,7 @@ const ListProducts = () => {
     await fetchInfo()
   }
   const fetchInfo=async ()=>{
-    await fetch('http://localhost:4000/allproducts').then((res)=>res.json()).then((data)=>{setProducts(data)})
+    await fetch('https://naveen-e-commerce-site-backend.onrender.com/allproducts').then((res)=>res.json()).then((data)=>{setProducts(data)})
   }
 
   useEffect(()=>{
