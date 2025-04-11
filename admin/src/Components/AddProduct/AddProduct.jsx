@@ -37,7 +37,7 @@ const AddProduct = () => {
       product.image=responseData.image_url;
       console.log(product)
       
-      await fetch('http://localhost:4000/addproduct', {
+      await fetch('https://naveen-e-commerce-site-backend.onrender.com/addproduct', {
         method:"POST",
         headers:{Accept:'application/json',
           'Content-Type':'application/json'
