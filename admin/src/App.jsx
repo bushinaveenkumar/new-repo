@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from './Components/Navbar/navbar'
+import Navbar from './Components/Navbar/Navbar'
 import Admin from './Pages/admin/admin'
 
 
